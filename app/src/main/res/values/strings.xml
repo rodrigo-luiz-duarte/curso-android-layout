@@ -2,4 +2,5 @@
     <string name="app_name">Alura Viagens</string>
     <string name="lista_pacotes_tipo_pacote">Especiais</string>
     <string name="lista_pacotes_pais">Brasil</string>
+    <string name="lista_pacotes_img_banner_desc">Banner da aplicação</string>
 </resources>

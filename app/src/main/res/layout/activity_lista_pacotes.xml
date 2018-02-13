@@ -7,9 +7,10 @@
     tools:context="br.com.alura.aluraviagens.ui.activity.ListaPacotesActivity">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/lista_pacotes_img_banner"
         android:layout_width="0dp"
         android:layout_height="120dp"
+        android:contentDescription="@string/lista_pacotes_img_banner_desc"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -43,5 +44,15 @@
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="@+id/lista_pacote_tipo_pacote"
         app:layout_constraintTop_toBottomOf="@+id/lista_pacote_tipo_pacote" />
+
+    <ListView
+        android:id="@+id/lista_pacotes_lista"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/lista_pacotes_img_banner"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
 
 </android.support.constraint.ConstraintLayout>
